@@ -1,0 +1,20 @@
+# Build artifacts. Everything here is reproducible from `cargo build`.
+/target/
+
+# rustfmt backups
+**/*.rs.bk
+
+# Local config and data. pgtui reads these from ~/.config and ~/.local/share,
+# but keep them out of the repo in case a copy is dropped here for testing —
+# config.toml can hold a plaintext password.
+config.toml
+*.pgpass
+history.jsonl
+
+# Editor and OS noise
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store

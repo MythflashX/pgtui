@@ -1,4 +1,11 @@
-# pgtui
+```
+██████╗  ██████╗████████╗██╗   ██╗██╗
+██╔══██╗██╔════╝╚══██╔══╝██║   ██║██║
+██████╔╝██║  ███╗  ██║   ██║   ██║██║
+██╔═══╝ ██║   ██║  ██║   ██║   ██║██║
+██║     ╚██████╔╝  ██║   ╚██████╔╝██║
+╚═╝      ╚═════╝   ╚═╝    ╚═════╝ ╚═╝
+```
 
 A lightweight, keyboard-driven PostgreSQL client for the terminal — the query
 tool from pgAdmin, without the rest of pgAdmin.
